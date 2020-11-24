@@ -1,6 +1,6 @@
 import React from 'react';
-import Numeral from 'numeral';
-import { Circle, Popup } from "react-leaflet";
+//import Numeral from 'numeral';
+//import { Circle } from "react-leaflet";
 
 const casesTypeColors = {
     cases: {
@@ -36,18 +36,18 @@ export const sortData = (data) => {
 } 
 
 //Draw Circles on the Map
-export const showDataOnMap = (data, casesType = "cases") => (
-    data.map(country => (
-        <Circle
-        center={[country.countryInfo.lat, country.countryInfo.lng]}
-        fillOpacity={0.4}
-        color={casesTypeColors[casesType].hex}
-        fillColor={casesTypeColors[casesType].hex}
-        radius={
-            Math.sqrt(country[casesType]) * casesTypeColors[casesType].multiplier
-        }
-        >
-
-        </Circle>
-    ))
-)
+// export const showDataOnMap = (data, casesType = "cases") => (
+    // data.map(country => (
+        // <Circle
+        // center={[country.countryInfo.lat, country.countryInfo.lng]}
+        // fillOpacity={0.4}
+        // color={casesTypeColors[casesType].hex}
+        // fillColor={casesTypeColors[casesType].hex}
+        // radius={
+            // Math.sqrt(country[casesType]) * casesTypeColors[casesType].multiplier
+        // }
+        // >
+{/*  */}
+        {/* </Circle> */}
+    // ))
+// )

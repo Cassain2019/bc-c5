@@ -4,7 +4,7 @@ import {  MenuItem, FormControl, Select, Card, CardContent } from '@material-ui/
 import InfoBox from './InfoBox';
 import Map from './Map';
 import Table from './Table';
-import {sortData, sortedData} from './util';
+import {sortData } from './util';
 import LineGraph from './LineGraph';
 import "leaflet/dist/leaflet.css";
 
