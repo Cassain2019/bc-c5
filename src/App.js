@@ -108,7 +108,7 @@ console.log("Country Info >>>>",countryInfo);
         <CardContent>
           <h3>Live Cases by Country</h3>
           <Table countries={tableData}></Table>
-          <h3>Worldwide New {casesType}</h3>
+          <h3 className="app__graphTitle">Worldwide New {casesType}</h3>
           <LineGraph className="app__graph" casesType={casesType}></LineGraph>                
         </CardContent>
       </Card>
